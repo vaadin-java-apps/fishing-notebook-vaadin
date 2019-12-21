@@ -30,4 +30,9 @@ public class AccuTemperatureGolkowice {
     public int hashCode() {
         return super.hashCode();
     }
+
+    @Override
+    public String toString() {
+        return "Golkowice" + accuMetricGolkowice;
+    }
 }
